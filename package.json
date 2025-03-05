@@ -1,0 +1,20 @@
+{
+  "name": "vector",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASET-X/Vector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASET-X/Vector/issues"
+  },
+  "homepage": "https://github.com/ASET-X/Vector#readme",
+  "description": ""
+}
