@@ -4,7 +4,7 @@ import {
   is3DVectorLike,
   isArray,
   isNumber,
-  isUndefined,
+  isEmpty,
 } from "./utils/types.js"
 
 function ok(x, y, z) {
@@ -12,7 +12,7 @@ function ok(x, y, z) {
 }
 
 function undef(x, y, z) {
-  return (isUndefined(x) && isUndefined(y) && isUndefined(z))
+  return (isEmpty(x) && isEmpty(y) && isEmpty(z))
 }
 
 export default class Vector3 {

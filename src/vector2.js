@@ -3,8 +3,8 @@ import { assert2DVector } from "./utils/assertVector.js"
 import {
   is2DVectorLike,
   isArray,
+  isEmpty,
   isNumber,
-  isUndefined,
 } from "./utils/types.js"
 
 function ok(x, y) {
@@ -12,7 +12,7 @@ function ok(x, y) {
 }
 
 function undef(x, y) {
-  return (isUndefined(x) && isUndefined(y))
+  return (isEmpty(x) && isEmpty(y))
 }
 
 export default class Vector2 {
